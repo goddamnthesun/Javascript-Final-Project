@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./apps/guided-npc.js"></script>
+    <title>Guided Npc Creation</title>
+  </head>
+  <body>
+    <header><h1>Guided NPC Creation</h1></header>
+    <main>
+      <div id="input-container">
+        <div id="name-input-container">
+          <label for="name">Name</label>
+          <input id="name-input" name="name" type="text" />
+        </div>
+        <div id="race-selection">
+          <label for="race">Race</label>
+          <select name="race" id="race">
+            <option id="random-race" value="random-race">Random Race</option>
+          </select>
+          <label for="race-checker">check for core races only</label>
+          <input type="checkbox" id="vanila-race-checker" name="race-checker" />
+        </div>
+        <div id="sex-selection">
+          <label for="sex">Sex</label>
+          <select name="sex" id="sex"></select>
+        </div>
+        <div id="standing-selection">
+          <label for="standing">Social Standing</label>
+          <select name="standing" id="standing"></select>
+        </div>
+        <div id="occupation-selection">
+          <label for="occupation">Occupation</label>
+          <select name="occupation" id="occupation">
+            <option id="random-occupation" value="random-occupation">
+              Random Occupation
+            </option>
+          </select>
+        </div>
+        <div id="class-selection">
+          <label for="class">Class</label>
+          <select name="class" id="class">
+            <option id="random-class" value="random-class">Random Class</option>
+          </select>
+        </div>
+      </div>
+      <div id="output-container"></div>
+    </main>
+  </body>
+</html>

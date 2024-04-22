@@ -261,6 +261,10 @@
             {
               "type": "Adviser",
               "description": "Wise counselor and confidant who provides guidance and counsel to nobles and rulers on various issues and decisions."
+            },
+            {
+              "type": "Knight",
+              "description": "Honorific title granted to an individual for service, valor, or loyalty, often serving as a military commander or protector of the realm."
             }
           ]
         },
