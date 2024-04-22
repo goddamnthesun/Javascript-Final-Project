@@ -1,0 +1,426 @@
+{
+  "social_status": [
+    {
+      "sex": "Male",
+      "categories": [
+        {
+          "status": "Nobility",
+          "occupations": [
+            {
+              "type": "King",
+              "description": "Ruler of a kingdom or realm, holding supreme political power and often considerable wealth and land."
+            },
+            {
+              "type": "Prince",
+              "description": "Son of a king or queen, often groomed for leadership roles and granted privileges and responsibilities."
+            },
+            {
+              "type": "Duke",
+              "description": "High-ranking noble who governs a duchy or territory on behalf of the monarch, with significant political influence and wealth."
+            },
+            {
+              "type": "Count",
+              "description": "Noble who oversees a county or earldom, responsible for local governance and administration."
+            },
+            {
+              "type": "Baron",
+              "description": "Noble who holds a barony, typically a smaller territory or estate, with authority over local matters and land."
+            }
+          ]
+        },
+        {
+          "status": "Lesser Nobility",
+          "occupations": [
+            {
+              "type": "Viscount",
+              "description": "Noble ranking below a baron but above a knight, often entrusted with administrative duties or military commands."
+            },
+            {
+              "type": "Lord",
+              "description": "Honorary title bestowed on a lesser noble or individual of high social standing, often associated with land ownership and privileges."
+            },
+            {
+              "type": "Knight",
+              "description": "Honorific title granted to an individual for service, valor, or loyalty, often serving as a military commander or protector of the realm."
+            },
+            {
+              "type": "Minister",
+              "description": "High-ranking official who advises nobles and rulers on matters of statecraft, policy, and governance."
+            },
+            {
+              "type": "Adviser",
+              "description": "Wise counselor and confidant who provides guidance and counsel to nobles and rulers on various issues and decisions."
+            }
+          ]
+        },
+        {
+          "status": "Learned",
+          "occupations": [
+            {
+              "type": "Scholar",
+              "description": "Academic, researcher, and intellectual dedicated to the pursuit of knowledge and understanding in various fields."
+            },
+            {
+              "type": "Wizard",
+              "description": "Magic user who studies arcane arts and wields powerful spells, often serving as an advisor, mentor, or guardian of ancient knowledge."
+            },
+            {
+              "type": "Sage",
+              "description": "Wise and knowledgeable individual respected for their insights and counsel, often consulted on matters of history, lore, or prophecy."
+            },
+            {
+              "type": "Alchemist",
+              "description": "Scientist and experimenter who specializes in the study of alchemy, seeking to transmute substances and unlock hidden properties."
+            },
+            {
+              "type": "Librarian",
+              "description": "Custodian of knowledge and information, managing libraries and archives, organizing records, and aiding in research and study."
+            },
+            {
+              "type": "Cartographer",
+              "description": "Mapmaker and geographer skilled in the art of cartography, creating maps and charts to document geography, navigation, and exploration."
+            },
+            {
+              "type": "Philosopher",
+              "description": "Thinker and scholar who ponders the nature of existence, morality, and knowledge, seeking to understand the fundamental truths of the universe."
+            },
+            {
+              "type": "Astrologer",
+              "description": "Observer of celestial phenomena who interprets the movements and positions of celestial bodies to make predictions and insights about human affairs."
+            },
+            {
+              "type": "Historian",
+              "description": "Researcher and chronicler of past events, civilizations, and cultures, studying archives, artifacts, and written records to understand history."
+            },
+            {
+              "type": "Botanist",
+              "description": "Scientist specializing in the study of plants, including their classification, structure, growth patterns, and medicinal properties."
+            },
+            {
+              "type": "Theologian",
+              "description": "Expert in the study of religion and theology, examining beliefs, doctrines, and spiritual traditions to deepen understanding of divine matters and human spirituality."
+            }
+          ]
+        },
+        {
+          "status": "Professional",
+          "occupations": [
+            {
+              "type": "Merchant",
+              "description": "Trader and business owner engaged in buying, selling, and transporting goods for profit, often involved in commerce and negotiations."
+            },
+            {
+              "type": "Craftsman",
+              "description": "Skilled artisan who creates goods or provides services through manual labor and specialized techniques, valued for their craftsmanship and expertise."
+            },
+            {
+              "type": "Doctor",
+              "description": "Medical practitioner trained in the art of healing and caring for the sick or injured, providing essential healthcare services to communities."
+            },
+            {
+              "type": "Artisan",
+              "description": "Skilled craftsman or craftswoman who creates fine art, sculptures, jewelry, and decorative objects using traditional techniques and materials."
+            },
+            {
+              "type": "Inventor",
+              "description": "Creative thinker and tinkerer who conceives, designs, and builds new devices, gadgets, and inventions to solve practical problems or improve existing technologies."
+            },
+            {
+              "type": "Engineer",
+              "description": "Problem solver and builder who applies scientific principles and technical knowledge to design, construct, and maintain structures, machines, and systems."
+            },
+            {
+              "type": "Architect",
+              "description": "Designer and planner who envisions and creates buildings, structures, and landscapes, balancing aesthetics, functionality, and sustainability."
+            },
+            {
+              "type": "Musician",
+              "description": "Artist who creates and performs music, expressing emotions and stories through melodies, harmonies, and rhythms, entertaining audiences and enriching cultural experiences."
+            },
+            {
+              "type": "Actor",
+              "description": "Performer who portrays characters and roles in theatrical productions, films, or television shows, using their talents to entertain and evoke emotions in audiences."
+            },
+            {
+              "type": "Miner",
+              "description": "Worker who extracts minerals, ores, and other valuable resources from mines, caves, or quarries, contributing to the production of raw materials for various industries."
+            },
+            {
+              "type": "Tavern Keeper",
+              "description": "Owner and operator of a tavern, inn, or pub, providing food, drink, and lodging to travelers, adventurers, and locals, fostering community and social interaction."
+            },
+            {
+              "type": "Blacksmith",
+              "description": "Metalworker and forger who shapes and manipulates iron, steel, and other metals to create tools, weapons, armor, and decorative items through heating, hammering, and forging."
+            },
+            {
+              "type": "Carpenter",
+              "description": "Skilled craftsman who works with wood, constructing buildings, furniture, and structures using traditional woodworking techniques and tools."
+            }
+          ]
+        },
+        {
+          "status": "Working Class",
+          "occupations": [
+            {
+              "type": "Farmer worker",
+              "description": "Worker who cultivates and harvests crops, raises livestock, and manages agricultural land to produce food and resources for sustenance."
+            },
+            {
+              "type": "Laborer",
+              "description": "Manual worker employed in various industries, construction projects, or services, performing physical tasks and labor for wages or livelihood."
+            },
+            {
+              "type": "Servant",
+              "description": "Domestic worker who provides assistance, maintenance, and support to households, estates, or noble families, often performing menial tasks or duties."
+            }
+          ]
+        },
+        {
+          "status": "Outlaw",
+          "occupations": [
+            {
+              "type": "Criminal",
+              "description": "Individual who engages in illegal activities, such as theft, smuggling, or violence, often operating outside the bounds of society and law."
+            },
+            {
+              "type": "Bandit",
+              "description": "Outlaw who roams the wilderness or preys on travelers and merchants, often forming gangs or brigands to plunder and pillage for wealth."
+            },
+            {
+              "type": "Smuggler",
+              "description": "Trafficker and illicit trader who smuggles contraband, forbidden goods, or prohibited substances across borders or through clandestine routes for profit."
+            },
+            {
+              "type": "Gang Member",
+              "description": "Associate of criminal organizations or gangs, involved in various illicit activities such as extortion, racketeering, and intimidation."
+            },
+            {
+              "type": "Hired Killer",
+              "description": "Mercenary and assassin hired to carry out murders, assassinations, or acts of violence for financial gain or political motives."
+            },
+            {
+              "type": "Thief",
+              "description": "Skilled practitioner of theft and burglary, adept at stealth, sleight of hand, and evasion, targeting valuables and wealth for personal enrichment."
+            },
+            {
+              "type": "Fence",
+              "description": "Middleman and broker who buys and sells stolen goods, concealing their origins and facilitating the disposal of illicit merchandise for profit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sex": "Female",
+      "categories": [
+        {
+          "status": "Nobility",
+          "occupations": [
+            {
+              "type": "Queen",
+              "description": "Ruler of a kingdom or realm, holding supreme political power and often considerable wealth and land."
+            },
+            {
+              "type": "Princess",
+              "description": "Daughter of a king or queen, often groomed for leadership roles and granted privileges and responsibilities."
+            },
+            {
+              "type": "Duchess",
+              "description": "High-ranking noble who governs a duchy or territory on behalf of the monarch, with significant political influence and wealth."
+            },
+            {
+              "type": "Countess",
+              "description": "Noble who oversees a county or earldom, responsible for local governance and administration."
+            },
+            {
+              "type": "Baroness",
+              "description": "Noble who holds a barony, typically a smaller territory or estate, with authority over local matters and land."
+            }
+          ]
+        },
+        {
+          "status": "Lesser Nobility",
+          "occupations": [
+            {
+              "type": "Viscountess",
+              "description": "Noble ranking below a baron but above a knight, often entrusted with administrative duties or military commands."
+            },
+            {
+              "type": "Lady",
+              "description": "Honorary title bestowed on a lesser noble or individual of high social standing, often associated with land ownership and privileges."
+            },
+            {
+              "type": "Dame",
+              "description": "Honorific title granted to an individual for service, valor, or loyalty, often serving as a military commander or protector of the realm."
+            },
+            {
+              "type": "Minister",
+              "description": "High-ranking official who advises nobles and rulers on matters of statecraft, policy, and governance."
+            },
+            {
+              "type": "Adviser",
+              "description": "Wise counselor and confidant who provides guidance and counsel to nobles and rulers on various issues and decisions."
+            }
+          ]
+        },
+        {
+          "status": "Learned",
+          "occupations": [
+            {
+              "type": "Scholar",
+              "description": "Academic, researcher, and intellectual dedicated to the pursuit of knowledge and understanding in various fields."
+            },
+            {
+              "type": "Wizard",
+              "description": "Magic user who studies arcane arts and wields powerful spells, often serving as an advisor, mentor, or guardian of ancient knowledge."
+            },
+            {
+              "type": "Sage",
+              "description": "Wise and knowledgeable individual respected for their insights and counsel, often consulted on matters of history, lore, or prophecy."
+            },
+            {
+              "type": "Alchemist",
+              "description": "Scientist and experimenter who specializes in the study of alchemy, seeking to transmute substances and unlock hidden properties."
+            },
+            {
+              "type": "Librarian",
+              "description": "Custodian of knowledge and information, managing libraries and archives, organizing records, and aiding in research and study."
+            },
+            {
+              "type": "Cartographer",
+              "description": "Mapmaker and geographer skilled in the art of cartography, creating maps and charts to document geography, navigation, and exploration."
+            },
+            {
+              "type": "Philosopher",
+              "description": "Thinker and scholar who ponders the nature of existence, morality, and knowledge, seeking to understand the fundamental truths of the universe."
+            },
+            {
+              "type": "Astrologer",
+              "description": "Observer of celestial phenomena who interprets the movements and positions of celestial bodies to make predictions and insights about human affairs."
+            },
+            {
+              "type": "Historian",
+              "description": "Researcher and chronicler of past events, civilizations, and cultures, studying archives, artifacts, and written records to understand history."
+            },
+            {
+              "type": "Botanist",
+              "description": "Scientist specializing in the study of plants, including their classification, structure, growth patterns, and medicinal properties."
+            },
+            {
+              "type": "Theologian",
+              "description": "Expert in the study of religion and theology, examining beliefs, doctrines, and spiritual traditions to deepen understanding of divine matters and human spirituality."
+            }
+          ]
+        },
+        {
+          "status": "Professional",
+          "occupations": [
+            {
+              "type": "Merchant",
+              "description": "Trader and business owner engaged in buying, selling, and transporting goods for profit, often involved in commerce and negotiations."
+            },
+            {
+              "type": "Craftsman",
+              "description": "Skilled artisan who creates goods or provides services through manual labor and specialized techniques, valued for their craftsmanship and expertise."
+            },
+            {
+              "type": "Doctor",
+              "description": "Medical practitioner trained in the art of healing and caring for the sick or injured, providing essential healthcare services to communities."
+            },
+            {
+              "type": "Artisan",
+              "description": "Skilled craftsman or craftswoman who creates fine art, sculptures, jewelry, and decorative objects using traditional techniques and materials."
+            },
+            {
+              "type": "Inventor",
+              "description": "Creative thinker and tinkerer who conceives, designs, and builds new devices, gadgets, and inventions to solve practical problems or improve existing technologies."
+            },
+            {
+              "type": "Engineer",
+              "description": "Problem solver and builder who applies scientific principles and technical knowledge to design, construct, and maintain structures, machines, and systems."
+            },
+            {
+              "type": "Architect",
+              "description": "Designer and planner who envisions and creates buildings, structures, and landscapes, balancing aesthetics, functionality, and sustainability."
+            },
+            {
+              "type": "Musician",
+              "description": "Artist who creates and performs music, expressing emotions and stories through melodies, harmonies, and rhythms, entertaining audiences and enriching cultural experiences."
+            },
+            {
+              "type": "Actor",
+              "description": "Performer who portrays characters and roles in theatrical productions, films, or television shows, using their talents to entertain and evoke emotions in audiences."
+            },
+            {
+              "type": "Miner",
+              "description": "Worker who extracts minerals, ores, and other valuable resources from mines, caves, or quarries, contributing to the production of raw materials for various industries."
+            },
+            {
+              "type": "Tavern Keeper",
+              "description": "Owner and operator of a tavern, inn, or pub, providing food, drink, and lodging to travelers, adventurers, and locals, fostering community and social interaction."
+            },
+            {
+              "type": "Blacksmith",
+              "description": "Metalworker and forger who shapes and manipulates iron, steel, and other metals to create tools, weapons, armor, and decorative items through heating, hammering, and forging."
+            },
+            {
+              "type": "Carpenter",
+              "description": "Skilled craftsman who works with wood, constructing buildings, furniture, and structures using traditional woodworking techniques and tools."
+            }
+          ]
+        },
+        {
+          "status": "Working Class",
+          "occupations": [
+            {
+              "type": "Farmer worker",
+              "description": "Worker who cultivates and harvests crops, raises livestock, and manages agricultural land to produce food and resources for sustenance."
+            },
+            {
+              "type": "Laborer",
+              "description": "Manual worker employed in various industries, construction projects, or services, performing physical tasks and labor for wages or livelihood."
+            },
+            {
+              "type": "Servant",
+              "description": "Domestic worker who provides assistance, maintenance, and support to households, estates, or noble families, often performing menial tasks or duties."
+            }
+          ]
+        },
+        {
+          "status": "Outlaw",
+          "occupations": [
+            {
+              "type": "Criminal",
+              "description": "Individual who engages in illegal activities, such as theft, smuggling, or violence, often operating outside the bounds of society and law."
+            },
+            {
+              "type": "Bandit",
+              "description": "Outlaw who roams the wilderness or preys on travelers and merchants, often forming gangs or brigands to plunder and pillage for wealth."
+            },
+            {
+              "type": "Smuggler",
+              "description": "Trafficker and illicit trader who smuggles contraband, forbidden goods, or prohibited substances across borders or through clandestine routes for profit."
+            },
+            {
+              "type": "Gang Member",
+              "description": "Associate of criminal organizations or gangs, involved in various illicit activities such as extortion, racketeering, and intimidation."
+            },
+            {
+              "type": "Hired Killer",
+              "description": "Mercenary and assassin hired to carry out murders, assassinations, or acts of violence for financial gain or political motives."
+            },
+            {
+              "type": "Thief",
+              "description": "Skilled practitioner of theft and burglary, adept at stealth, sleight of hand, and evasion, targeting valuables and wealth for personal enrichment."
+            },
+            {
+              "type": "Fence",
+              "description": "Middleman and broker who buys and sells stolen goods, concealing their origins and facilitating the disposal of illicit merchandise for profit."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

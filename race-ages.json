@@ -1,0 +1,104 @@
+{
+  "races": [
+    {
+      "name": "Alseid",
+      "adulthood": 20,
+      "max_lifespan": 150
+    },
+    {
+      "name": "Catfolk",
+      "adulthood": 18,
+      "max_lifespan": 70
+    },
+    {
+      "name": "Darakhul",
+      "adulthood": 18,
+      "max_lifespan": 120
+    },
+    {
+      "name": "Derro",
+      "adulthood": 18,
+      "max_lifespan": 135
+    },
+    {
+      "name": "Dragonborn",
+      "adulthood": 15,
+      "max_lifespan": 80
+    },
+    {
+      "name": "Drow",
+      "adulthood": 100,
+      "max_lifespan": 750
+    },
+    {
+      "name": "Dwarf",
+      "adulthood": 50,
+      "max_lifespan": 350
+    },
+    {
+      "name": "Elf",
+      "adulthood": 100,
+      "max_lifespan": 750
+    },
+    {
+      "name": "Erina",
+      "adulthood": 15,
+      "max_lifespan": 60
+    },
+    {
+      "name": "Gearforged",
+      "adulthood": null,
+      "max_lifespan": "potentially eternal"
+    },
+    {
+      "name": "Gnome",
+      "adulthood": 40,
+      "max_lifespan": 500
+    },
+    {
+      "name": "Half-Elf",
+      "adulthood": 20,
+      "max_lifespan": 180
+    },
+    {
+      "name": "Half-Orc",
+      "adulthood": 14,
+      "max_lifespan": 75
+    },
+    {
+      "name": "Halfling",
+      "adulthood": 20,
+      "max_lifespan": 150
+    },
+    {
+      "name": "Human",
+      "adulthood": 18,
+      "max_lifespan": 90
+    },
+    {
+      "name": "Minotaur",
+      "adulthood": 17,
+      "max_lifespan": 150
+    },
+    {
+      "name": "Mushroomfolk",
+      "adulthood": 14,
+      "max_lifespan": 50
+    },
+    {
+      "name": "Satarre",
+      "adulthood": 6,
+      "max_lifespan": 50
+    },
+    {
+      "name": "Shade",
+      "adulthood": 30,
+      "max_lifespan": 300
+    },
+    {
+      "name": "Tiefling",
+      "adulthood": 18,
+      "max_lifespan": 90
+    }
+  ]
+}

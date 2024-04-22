@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./apps/instant-npc.js" type="module"></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/style-instant-npc.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Instant NPC</title>
+  </head>
+  <body>
+    <header><h1>Instant NPC Generator</h1></header>
+    <main>
+      <div id="selection">
+        <div id="race-selection">
+          <label for="race">Race</label>
+          <select name="race" id="race">
+            <option id="random-race" value="random-race">Random Race</option>
+          </select>
+          <label for="race-checker">check for core races only</label>
+          <input type="checkbox" id="vanila-race-checker" name="race-checker" />
+        </div>
+        <div id="sex-selection">
+          <label for="sex">Race</label>
+          <select name="sex" id="sex">
+            <option id="random-sex" value="random-sex">Random Sex</option>
+          </select>
+        </div>
+        <div id="standing-selection">
+          <div id="standing-selection">
+            <label for="standing">Social Standing</label>
+            <select name="standing" id="standing">
+              <option id="random-standing" value="random-standing">
+                Random Social Standing
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button class="button-55" id="generate-npc">Generate NPC</button>
+      <button class="button-55" id="export-text">Export NPC</button>
+      <button class="button-55" id="history">
+        <a href="./instant-npc-history.html">History</a>
+      </button>
+      <div id="card-npc-container">
+        <!-- <div class="card">
+          <div class="card-header">
+            <h2>NPC Name</h2>
+            <p>Description of NPC</p>
+          </div>
+          <div class="card-body">
+            <div class="stats">
+              <h3>Stats</h3>
+              <ul>
+                <li>
+                  Strength:
+                  <input type="number" class="stat-input" value="10" />
+                </li>
+                <li>
+                  Dexterity:
+                  <input type="number" class="stat-input" value="10" />
+                </li>
+                <li>
+                  Constitution:
+                  <input type="number" class="stat-input" value="10" />
+                </li>
+                <li>
+                  Intelligence:
+                  <input type="number" class="stat-input" value="10" />
+                </li>
+                <li>
+                  Wisdom: <input type="number" class="stat-input" value="10" />
+                </li>
+                <li>
+                  Charisma:
+                  <input type="number" class="stat-input" value="10" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </main>
+  </body>
+</html>

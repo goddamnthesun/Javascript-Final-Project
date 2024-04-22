@@ -1,0 +1,11 @@
+:root {
+  --cool: "Jersey 10", sans-serif;
+  --main: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+  font-family: var(--cool);
+  font-size: 30px;
+  margin-bottom: 10px;
+}
