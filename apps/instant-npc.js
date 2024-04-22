@@ -106,7 +106,7 @@ socialStatus().then((data) => {
 });
 
 // generate btn
-
+const cardNpc = document.getElementById("card-npc-container");
 document.getElementById("generate-npc").addEventListener("click", async () => {
   let raceSelector = document.getElementById("race").value;
   let sexSelector = document.getElementById("sex").value;
@@ -135,7 +135,7 @@ document.getElementById("generate-npc").addEventListener("click", async () => {
     standingSelector
   );
   // add card before changes
-  const cardNpc = document.getElementById("card-npc-container");
+
   const cardCode = `<div class="card-header">
 <h2>${randomName}</h2>
 <p>${randomName} is ${age} years old ${raceSelector} ${sexSelector} ${selectedRandomProfession}</p>
@@ -151,19 +151,61 @@ document.getElementById("generate-npc").addEventListener("click", async () => {
   const removeButton = document.createElement("button");
   removeButton.textContent = "X";
   removeButton.classList.add("button-55");
-  console.log(localStorage.key);
-  removeButton.id = `remove-${localStorage.key(localStorage.length)}`;
+
   removeButton.addEventListener("click", () => {
     localStorage.removeItem(localStorage.key);
     cardNpc.removeChild(tempElement);
     cardNpc.removeChild(removeButton);
+    cardNpc.removeChild(exportButton);
   });
   cardNpc.appendChild(removeButton);
+
+  // export card
+  const exportButton = document.createElement("button");
+  exportButton.textContent = "Export NPC";
+  exportButton.classList.add("button-55");
+  cardNpc.appendChild(exportButton);
+  exportButton.addEventListener("click", function () {
+    exportNPC(cardCode);
+  });
 
   console.log(
     `${generateRandomName()} is ${age} years old ${raceSelector} ${sexSelector} ${selectedRandomProfession}`
   );
 });
+
+//keep cards in memory
+
+window.onload = function () {
+  for (let key in localStorage) {
+    if (!key.startsWith("card")) continue;
+    const npcs = localStorage.getItem(key);
+    const tempElement = document.createElement("div");
+    tempElement.innerHTML = npcs;
+
+    const removeButton = document.createElement("button");
+    removeButton.textContent = "X";
+    removeButton.classList.add("button-55");
+    removeButton.id = `remove-${key}`;
+    removeButton.addEventListener("click", function () {
+      localStorage.removeItem(key);
+      cardNpc.removeChild(tempElement);
+    });
+
+    const exportButton = document.createElement("button");
+    exportButton.textContent = "Export NPC";
+    exportButton.classList.add("button-55");
+    exportButton.id = `export-${key}`;
+    exportButton.addEventListener("click", function () {
+      exportNPC(npcs);
+    });
+
+    tempElement.appendChild(removeButton);
+    tempElement.appendChild(exportButton);
+    cardNpc.appendChild(tempElement);
+  }
+};
+
 function generateRandomName() {
   const prefixes = [
     "Ald",
@@ -303,4 +345,28 @@ async function getAllRandomRace() {
     const randomAllIndex = randomNumber(0, allRaceNames.length - 1);
     return allRaceNames[randomAllIndex];
   });
+}
+function exportNPC(npcString) {
+  const tempElement = document.createElement("div");
+  tempElement.innerHTML = npcString;
+
+  const npcName = tempElement
+    .querySelector(".card-header h2")
+    .textContent.trim();
+
+  const npcContent = tempElement
+    .querySelector(".card-header p")
+    .textContent.trim();
+
+  const filename = `NPC-${npcName}.txt`;
+  const fileContent = npcContent;
+
+  const blob = new Blob([fileContent], { type: "text/plain" });
+
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+
+  link.download = filename;
+
+  link.click();
 }

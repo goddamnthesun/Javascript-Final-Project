@@ -21,3 +21,40 @@
 //     }
 //   }
 // }
+
+// <!-- <div class="card">
+// <div class="card-header">
+//   <h2>NPC Name</h2>
+//   <p>Description of NPC</p>
+// </div>
+// <div class="card-body">
+//   <div class="stats">
+//     <h3>Stats</h3>
+//     <ul>
+//       <li>
+//         Strength:
+//         <input type="number" class="stat-input" value="10" />
+//       </li>
+//       <li>
+//         Dexterity:
+//         <input type="number" class="stat-input" value="10" />
+//       </li>
+//       <li>
+//         Constitution:
+//         <input type="number" class="stat-input" value="10" />
+//       </li>
+//       <li>
+//         Intelligence:
+//         <input type="number" class="stat-input" value="10" />
+//       </li>
+//       <li>
+//         Wisdom: <input type="number" class="stat-input" value="10" />
+//       </li>
+//       <li>
+//         Charisma:
+//         <input type="number" class="stat-input" value="10" />
+//       </li>
+//     </ul>
+//   </div>
+// </div>
+// </div> -->
