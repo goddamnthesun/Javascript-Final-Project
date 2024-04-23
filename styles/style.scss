@@ -10,10 +10,22 @@ header {
   margin-bottom: 100px;
 }
 
+#main-instant-npc {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 #main-home {
   height: 500px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+#selection {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
 }
 
 a {
@@ -83,4 +95,14 @@ a {
 
 div {
   margin-bottom: 10px;
+}
+
+.card-header {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  border: solid black 2px;
 }

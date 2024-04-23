@@ -200,18 +200,19 @@ getClasses().then((data) => {
 
 const createCharacter = document.getElementById("create");
 
-const nameSelector = document.getElementById("name-input");
-const raceSelector = document.getElementById("race");
-const ageSelector = document.getElementById("age");
-const occupationSelector = document.getElementById("occupation");
-const classSelector = document.getElementById("class");
-const levelSelector = document.getElementById("level");
+createCharacter.addEventListener("click", async () => {
+  const nameSelector = document.getElementById("name-input");
+  const raceSelector = document.getElementById("race");
+  const ageSelector = document.getElementById("age");
+  const occupationSelector = document.getElementById("occupation");
+  const classSelector = document.getElementById("class");
+  const levelSelector = document.getElementById("level");
 
-const characterCode = ` <div id="character-name">
+  const characterCode = ` <div id="character-name">
 <h2>${nameSelector.value}</h2>
 </div>
 <div id="character-desc">
-<p>${nameSelector.value} is level ${levelSelector.value} ${classSelector.value} ${age.value} years old ${raceSelector.value} ${sexSelector.value} ${occupationSelector.value}</p>
+<p>${nameSelector.value} is level ${levelSelector.value} ${classSelector.value} ${ageSelector.value} years old ${raceSelector.value} ${sexSelector.value} ${occupationSelector.value}</p>
 </div>
 <div class="character-stat-container">
 <div class="stats">
@@ -255,7 +256,6 @@ const characterCode = ` <div id="character-name">
 </div>
 </div>;`;
 
-createCharacter.addEventListener("click", async () => {
   const outputContainer = document.getElementById("output-container");
   const tempElement = document.createElement("div");
   tempElement.innerHTML = characterCode;

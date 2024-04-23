@@ -16,7 +16,7 @@
   </head>
   <body>
     <header><h1>Instant NPC Generator</h1></header>
-    <main>
+    <main id="main-instant-npc">
       <div id="selection">
         <div id="race-selection">
           <label for="race">Race</label>
@@ -40,11 +40,12 @@
             </option>
           </select>
         </div>
+        <button class="button-55" id="generate-npc">Generate NPC</button>
+        <button class="button-55" id="history">
+          <a href="./instant-npc-history.html">History</a>
+        </button>
       </div>
-      <button class="button-55" id="generate-npc">Generate NPC</button>
-      <button class="button-55" id="history">
-        <a href="./instant-npc-history.html">History</a>
-      </button>
+
       <div id="card-npc-container"></div>
     </main>
   </body>
