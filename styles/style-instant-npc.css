@@ -3,7 +3,7 @@
   --main: "Roboto", sans-serif;
 }
 
-header {
+h1 {
   display: flex;
   justify-content: center;
   font-family: var(--cool);
