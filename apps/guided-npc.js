@@ -195,3 +195,69 @@ getClasses().then((data) => {
     classSelector.appendChild(option);
   });
 });
+
+// create Character
+
+const createCharacter = document.getElementById("create");
+
+const nameSelector = document.getElementById("name-input");
+const raceSelector = document.getElementById("race");
+const ageSelector = document.getElementById("age");
+const occupationSelector = document.getElementById("occupation");
+const classSelector = document.getElementById("class");
+const levelSelector = document.getElementById("level");
+
+const characterCode = ` <div id="character-name">
+<h2>${nameSelector.value}</h2>
+</div>
+<div id="character-desc">
+<p>${nameSelector.value} is level ${levelSelector.value} ${classSelector.value} ${age.value} years old ${raceSelector.value} ${sexSelector.value} ${occupationSelector.value}</p>
+</div>
+<div class="character-stat-container">
+<div class="stats">
+  <h3>Stats</h3>
+  <ul>
+    <li>
+      Strength:
+      <input type="number" class="stat-input" id="strength" value="10" />
+    </li>
+    <li>
+      Dexterity:
+      <input type="number" class="stat-input" id="dexterity" value="10" />
+    </li>
+    <li>
+      Constitution:
+      <input
+        type="number"
+        class="stat-input"
+        id="Constitution"
+        value="10"
+      />
+    </li>
+    <li>
+      Intelligence:
+      <input
+        type="number"
+        class="stat-input"
+        id="Intelligence"
+        value="10"
+      />
+    </li>
+    <li>
+      Wisdom:
+      <input type="number" class="stat-input" id="wisdom" value="10" />
+    </li>
+    <li>
+      Charisma:
+      <input type="number" class="stat-input" id="charisma" value="10" />
+    </li>
+  </ul>
+</div>
+</div>;`;
+
+createCharacter.addEventListener("click", async () => {
+  const outputContainer = document.getElementById("output-container");
+  const tempElement = document.createElement("div");
+  tempElement.innerHTML = characterCode;
+  outputContainer.appendChild(tempElement);
+});

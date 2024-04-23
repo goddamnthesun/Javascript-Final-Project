@@ -107,6 +107,7 @@ socialStatus().then((data) => {
 
 // generate btn
 const cardNpc = document.getElementById("card-npc-container");
+
 document.getElementById("generate-npc").addEventListener("click", async () => {
   let raceSelector = document.getElementById("race").value;
   let sexSelector = document.getElementById("sex").value;
@@ -126,6 +127,7 @@ document.getElementById("generate-npc").addEventListener("click", async () => {
   }
   if (sexSelector === "random-sex") {
     sexSelector = randomSex();
+    console.log(sexSelector);
   }
   if (standingSelector === "random-standing") {
     standingSelector = await randomSocialStanding();
@@ -287,10 +289,10 @@ async function getAgeRange(raceSelector) {
 }
 
 function randomSex() {
-  if (Math.random > 0.5) {
-    return "female";
+  if (Math.random() > 0.5) {
+    return "Male";
   } else {
-    return "male";
+    return "Female";
   }
 }
 
